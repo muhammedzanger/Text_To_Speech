@@ -28,7 +28,6 @@ function textToSpeech(text){
                 utternance.voice = voice;
             }
         }
-
     synth.speak(utternance);
 }
 speechBtn.addEventListener("click", e => {
